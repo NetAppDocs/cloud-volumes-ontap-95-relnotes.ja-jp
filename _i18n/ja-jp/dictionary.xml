@@ -398,4 +398,5 @@
   <block id="dea335c9c6f638eb584011e253ad6ca1" category="sidebar">ONTAP クラウド</block>
   <block id="62703524dbb4d20326585184b2149d4d" category="admonition">その他の機能と機能拡張は、 Cloud Manager の最新バージョンで導入されました。を参照してください<block ref="b168941a5dc7eab411ef9dc2c7a220db" category="inline-link-rx"></block> を参照してください。</block>
   <block id="33f66f5b18b24875dca7a81c8f84c5b9" category="cell">896TiB</block>
+  <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">Cloud Manager のすべてのドキュメント</block>
 </blocks>

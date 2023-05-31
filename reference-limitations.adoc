@@ -112,7 +112,7 @@ Cloud Volumes ONTAP はアイドル状態のときに CPU を解放しないた�
 
 === AWS C2S 環境の制限事項
 
-Cloud Manager のドキュメントで制限事項を確認します。 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-aws-c2s.html["AWS C2S 環境で作業を開始する"^]
+Cloud Manager のドキュメントで制限事項を確認します。 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-getting-started-aws-c2s.html["AWS C2S 環境で作業を開始する"^]
 
 
 

@@ -76,7 +76,7 @@ AWS では、 Cloud Volumes ONTAP をシングルノードシステムまたは 
 注：
 
 . に * が付いているインスタンスタイプには、 Cloud Volumes ONTAP が _Flash Cache _ として使用するローカル NVMe ストレージが含まれます。Flash Cache は、最近読み取られたユーザデータとネットアップのメタデータをリアルタイムでインテリジェントにキャッシングすることで、データへのアクセスを高速化します。データベース、 E メール、ファイルサービスなど、ランダムリードが大量に発生するワークロードに効果的です。Flash Cache のパフォーマンス向上を利用するには、すべてのボリュームで圧縮を無効にする必要があります。 link:reference-limitations.html#flash-cache-limitations["詳細はこちら。"]。
-. 一部の構成では、ディスク制限により、ディスクのみを使用して 368 TiB の容量制限に達することができません。このような場合は、で 368 TiB の容量制限に達することができます https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-data-tiering.html["使用頻度の低いデータをオブジェクトストレージに階層化します"^]。ディスクの制限については、を参照してください link:reference-storage-limits.html["ストレージの制限"]。
+. 一部の構成では、ディスク制限により、ディスクのみを使用して 368 TiB の容量制限に達することができません。このような場合は、で 368 TiB の容量制限に達することができます https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-data-tiering.html["使用頻度の低いデータをオブジェクトストレージに階層化します"^]。ディスクの制限については、を参照してください link:reference-storage-limits.html["ストレージの制限"]。
 . データ階層化を有効にすると、システムの容量制限は同じままになります。容量の制限には、ディスクとオブジェクトストレージの両方が含まれます。
 . データ階層化は、 Cloud Volumes ONTAP の Standard 、 Premium 、および BYOL でサポートされています。
 . EC2 インスタンスタイプを選択する場合は、そのインスタンスが共有インスタンスか専用インスタンスかを指定できます。

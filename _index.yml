@@ -1,0 +1,28 @@
+---
+indexpage:
+  title: Cloud Volumes ONTAP 9.5 リリースノート
+  summary: このリリースノートでは、 Cloud Volumes ONTAP 9.5 の新機能、制限事項、および既知の問題について説明します。
+  keywords: cloud volumes ontap, licensing, security, release notes, storage, data
+    protection, configuration, upgrade, encryption, cvo, 95
+  lead: このリリースノートでは、 Cloud Volumes ONTAP 9.5 の新機能、制限事項、および既知の問題について説明します。
+  tiles:
+  - title: はじめに
+    links:
+    - title: 新機能
+      url: reference-new.html
+  - title: 構成と制限
+    links:
+    - title: サポートされている構成
+      url: reference-supported-configs.html
+    - title: ストレージの制限
+      url: reference-storage-limits.html
+    - title: 制限
+      url: reference-limitations.html
+  - title: ブログコミュニティ
+    links:
+    - title: ネットアップコミュニティ
+      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+    - title: Cloud Central のブログです
+      url: https://cloud.netapp.com/blog
+    - title: クラウドに関する Web セミナー
+      url: https://cloud.netapp.com/events

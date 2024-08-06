@@ -213,7 +213,6 @@
   <block id="ca8e9e829d93bddb8047ab19c3089ef0" category="paragraph">の詳細を確認してください<block ref="05d673fac0b9a986c11211dc1faf7e30" category="inline-link-rx"></block> および<block ref="c013d0365528310657fb8e18da753b04" category="inline-link-rx"></block>。</block>
   <block id="7b56b613537d1df2a1f213faf0010450" category="section-title">AWS での NetApp Volume Encryption のサポート</block>
   <block id="ec8f2d705f8aa5fa3836b9bcd3897d86" category="inline-link">NetApp Volume Encryption （ NVE ）</block>
-  <block id="a3fbaa9413e5166b2d7e4d1d9f1b1e27" category="paragraph"><block ref="35572189918edc95132c810b5cb50cdc" category="inline-link-rx"></block> は、一度に 1 つのボリュームの保存データを暗号化するソフトウェアベースのテクノロジです。データ、 Snapshot コピー、およびメタデータが暗号化されます。データへのアクセスには、ボリュームごとに 1 つずつ、一意の XTS-AES-256 キーを使用します。</block>
   <block id="9ed4a475dd3705157a9fed8811f63ce2" category="inline-link">NetApp Interoperability Matrix Tool で確認できます</block>
   <block id="2b2f4a969a749ecb25f4a60c31ad59e7" category="paragraph">現時点で、 Cloud Volumes ONTAP は外部キー管理サーバを使用した NetApp Volume Encryption をサポートしています。オンボードキーマネージャはサポートされていません。サポートされているキー管理ツールは、で確認できます<block ref="49d81d143d5c8b402603532056154481" category="inline-link-rx"></block> 主要マネージャー * ソリューションの下。</block>
   <block id="940295fb696cf9fb112d7c2bfe38d9b9" category="paragraph">CLI から NetApp Volume Encryption をセットアップする必要があります。その後、 CLI または System Manager を使用して、特定のボリュームで暗号化を有効にできます。Cloud Manager のユーザインターフェイスと API では、 NetApp Volume Encryption がサポートされていません。</block>
@@ -377,8 +376,6 @@
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">ネットアップコミュニティ</block>
   <block id="ff6c37cbc252e306a6b4e390ec13cbc1" category="sidebar">Cloud Central のブログです</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">クラウドに関する Web セミナー</block>
-  <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="sidebar">Cloud Volumes ONTAP</block>
-  <block id="dea335c9c6f638eb584011e253ad6ca1" category="sidebar">ONTAP クラウド</block>
   <block id="33f66f5b18b24875dca7a81c8f84c5b9" category="cell">896TiB</block>
   <block id="b7a391ba538fb8a6830548a168a702ed" category="section-title">新しい導入はサポートされていません</block>
   <block id="2f9882645b2c32820ad085240bacb763" category="paragraph-title">HA の場合、ライセンスの容量制限はノード単位か、 HA ペア全体に適用されるか</block>
@@ -394,7 +391,6 @@
   <block id="c5d198b1aeff3237e133fcea60d3039c" category="paragraph">それ以外の方法でも保管データ暗号化はサポートされます。データは、 NetApp Volume Encryption を使用するか、 AWS Key Management Service （ KMS ）を使用して暗号化できます。<block ref="afbe1fb59edcd7d2e2cc1e6be7740d2e" category="inline-link-rx"></block>。</block>
   <block id="0209bacb71424ba104a8bb410d149339" category="paragraph">バージョン 9.5 では、 c4.2xlarge インスタンスタイプはサポートされていません。このインスタンスタイプを現在使用している場合は、最初にそのインスタンスタイプを使用する必要があります<block ref="28595755cd198f10eb2d2420963cc9dc" category="inline-link-rx"></block> 9.5 リリースにアップグレードする前に、</block>
   <block id="1ab4ecc8b83742de5404f0a7e3289a0c" category="paragraph"><block ref="6323bcac8e680fcfc681b7895d7db259" category="inline-link-rx"></block>。</block>
-  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">BlueXPのすべてのマニュアル</block>
   <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
   <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
   <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
@@ -403,4 +399,5 @@
   <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="7c9d324d1d8b491ad2ad038c3ae1a08d" category="paragraph"><block ref="88f79bf25d1193134b67da843a562378" category="inline-link-rx"></block> は、一度に1つのボリュームの保存データを暗号化するためのソフトウェアベースのテクノロジです。データ、 Snapshot コピー、およびメタデータが暗号化されます。データへのアクセスには、ボリュームごとに1つの一意のXTS-AES-256キーが使用されます。</block>
 </blocks>

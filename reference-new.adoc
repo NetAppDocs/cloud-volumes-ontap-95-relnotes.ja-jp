@@ -187,7 +187,7 @@ Cloud Volumes ONTAP は、 M5 および R5 ファミリーで複数のインス�
 
 === AWS での NetApp Volume Encryption のサポート
 
-https://www.netapp.com/us/media/ds-3899.pdf["NetApp Volume Encryption （ NVE ）"^] は、一度に 1 つのボリュームの保存データを暗号化するソフトウェアベースのテクノロジです。データ、 Snapshot コピー、およびメタデータが暗号化されます。データへのアクセスには、ボリュームごとに 1 つずつ、一意の XTS-AES-256 キーを使用します。
+https://www.netapp.com/pdf.html?item=/media/17070-ds-3899.pdf["NetApp Volume Encryption （ NVE ）"^] は、一度に1つのボリュームの保存データを暗号化するためのソフトウェアベースのテクノロジです。データ、 Snapshot コピー、およびメタデータが暗号化されます。データへのアクセスには、ボリュームごとに1つの一意のXTS-AES-256キーが使用されます。
 
 現時点で、 Cloud Volumes ONTAP は外部キー管理サーバを使用した NetApp Volume Encryption をサポートしています。オンボードキーマネージャはサポートされていません。サポートされているキー管理ツールは、で確認できます http://mysupport.netapp.com/matrix["NetApp Interoperability Matrix Tool で確認できます"^] 主要マネージャー * ソリューションの下。
 
@@ -250,7 +250,7 @@ https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-ha-azure.html["
 
 === Azure での NetApp Volume Encryption のサポート
 
-https://www.netapp.com/us/media/ds-3899.pdf["NetApp Volume Encryption （ NVE ）"^] は、一度に 1 つのボリュームの保存データを暗号化するソフトウェアベースのテクノロジです。データ、 Snapshot コピー、およびメタデータが暗号化されます。データへのアクセスには、ボリュームごとに 1 つずつ、一意の XTS-AES-256 キーを使用します。
+https://www.netapp.com/pdf.html?item=/media/17070-ds-3899.pdf["NetApp Volume Encryption （ NVE ）"^] は、一度に1つのボリュームの保存データを暗号化するためのソフトウェアベースのテクノロジです。データ、 Snapshot コピー、およびメタデータが暗号化されます。データへのアクセスには、ボリュームごとに1つの一意のXTS-AES-256キーが使用されます。
 
 現時点で、 Cloud Volumes ONTAP は外部キー管理サーバを使用した NetApp Volume Encryption をサポートしています。オンボードキーマネージャはサポートされていません。サポートされているキー管理ツールは、で確認できます http://mysupport.netapp.com/matrix["NetApp Interoperability Matrix Tool で確認できます"^] 主要マネージャー * ソリューションの下。
 

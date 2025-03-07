@@ -104,7 +104,7 @@ NOTE: 再起動後のキャッシュの再ウォームアップは、 Cloud Volu
 
 Azure の米国中部リージョンで HA ペアがサポートされるようになりました。
 
-https://cloud.netapp.com/cloud-volumes-global-regions["サポートされる Azure リージョンの一覧を参照してください"^]。
+https://bluexp.netapp.com/cloud-volumes-global-regions["サポートされる Azure リージョンの一覧を参照してください"^]です。
 
 
 
@@ -133,7 +133,7 @@ GA リリースは、次の点を除いて、ほとんどの Azure リージョ�
 
 これらのリージョンをメンテナンスすると、 Cloud Volumes ONTAP を作成できず、フェイルオーバーが実行されない可能性があります。メンテナンスが完了したら、ただちにこれらの地域をサポートすることを計画しています。
 
-https://cloud.netapp.com/cloud-volumes-global-regions["サポートされる Azure リージョンの一覧を参照してください"^]。
+https://bluexp.netapp.com/cloud-volumes-global-regions["サポートされる Azure リージョンの一覧を参照してください"^]です。
 
 
 

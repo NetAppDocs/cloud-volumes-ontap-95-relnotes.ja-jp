@@ -44,7 +44,6 @@
   <block id="90088be3adb232b22e0087f5c0dfa678" category="list-text">コールド HDD は HA ペアではサポートされていません。</block>
   <block id="17105d87ead215069c8de1fbcc539db6" category="list-text">Cloud Volumes ONTAP Standard 、 Premium 、および BYOL で EBS SSD を使用すると、書き込みパフォーマンスが向上します。</block>
   <block id="a3f8304ab1695053d71855c60f8abf63" category="inline-link">Cloud Volume グローバルリージョン</block>
-  <block id="4375839c669e051e5f2a8de11ba0c5d0" category="list-text">AWS リージョンのサポートについては、を参照してください<block ref="2b6a522631c3b3b8afac5466195e108a" category="inline-link-rx"></block>。</block>
   <block id="2544021bbaa4bc6eadfddbb17edf7811" category="section-title">Cloud Volumes ONTAP for Azure</block>
   <block id="439b8a07189772d0c98983ce22685918" category="paragraph">Azure では、 Cloud Volumes ONTAP をシングルノードシステムまたは HA ペアとして導入できます。</block>
   <block id="078325cc35a9c8c9290e445f32bd1855" category="section-title">シングルノードシステム</block>
@@ -58,7 +57,6 @@
   <block id="50bb513ae39b44421d182e4072a83998" category="cell">標準 HDD 管理ディスク、標準 SSD 管理ディスク、およびプレミアム SSD 管理ディスク（ディスクあたり最大 32 TiB ）</block>
   <block id="d448e5e37b82dc9cd3ec041340cd7253" category="list-text">データ階層化は、 DS3_v2 仮想マシンタイプではサポートされていません。</block>
   <block id="d6b23a41a85f490ae75b43cb4095d8c0" category="list-text">拡張書き込みパフォーマンスは、 Azure Premium Storage ディスクを使用している場合は有効になりますが、 DS3_v2 仮想マシンタイプを使用している場合は有効になりません。</block>
-  <block id="7c7627c6477255acb2239bd1be90f346" category="list-text">Azure リージョンのサポートについては、を参照してください<block ref="2b6a522631c3b3b8afac5466195e108a" category="inline-link-rx"></block>。</block>
   <block id="b049fcbe8198301adc6bf87634a02845" category="section-title">HA ペア</block>
   <block id="a2f04bcb45cecb780dad3d2795f4e080" category="paragraph">Azure で Cloud Volumes ONTAP を HA ペアとして導入する場合は、次の構成から選択できます。</block>
   <block id="aa7f77e663b832d5b0e544c5511e680c" category="cell">サポート対象外</block>
@@ -140,7 +138,6 @@
   <block id="bd9f3210b7c4e1dfb162268596a29363" category="list-text">NFSv4 はサポートされていません。NFSv3 がサポートされています。</block>
   <block id="74522068eb4d7b9d888846015e92c07a" category="list-text">一部のリージョンでは HA ペアがサポートされません。</block>
   <block id="1538d38eb23a96781db500ec7bd30195" category="inline-link">サポートされる Azure リージョンの一覧を参照してください</block>
-  <block id="f5b8e6c4c4b082cf610f078e361a727f" category="paragraph"><block ref="1f129df010c594cb0d37bd30745a3820" category="inline-link-rx"></block>。</block>
   <block id="9c4369ea6b2e29931f30698d49e87679" category="summary">Cloud Volumes ONTAP 9.5 には、複数の新機能と機能拡張が含まれています。</block>
   <block id="eefe5eb049dc65c85c62e0f1c7752611" category="doc">Cloud Volumes ONTAP 9.5 の新機能</block>
   <block id="f9d74313da16b2bb412c1d7c5efd0534" category="inline-link">Cloud Manager リリースノート</block>
@@ -182,7 +179,6 @@
   <block id="fe6df44a9d70c01de724da265530b0d2" category="section-title">Azure Central US リージョンで HA がサポートされます （ 2019 年 3 月 25 日）</block>
   <block id="1417340e9f15685d8f4814b72dd81c2d" category="paragraph">Azure の米国中部リージョンで HA ペアがサポートされるようになりました。</block>
   <block id="4a977616fcd7ade62dbf55a1f8db1bd0" category="inline-link">サポートされる Azure リージョンの一覧を参照してください</block>
-  <block id="07a1c66013de0c57f2bd7d69d3354c41" category="paragraph"><block ref="0f846b36f06a975303e325a2ffb2c92b" category="inline-link-rx"></block>。</block>
   <block id="a214545074aff7a12db7be5c3411e5f3" category="section-title">9.5 P1 パッチ（ 2019 年 3 月 18 日）</block>
   <block id="86b05ab8e0392045b506cb6f3482ac50" category="paragraph">Cloud Volumes ONTAP の 9.5 P1 パッチリリースがすべての構成で利用できるようになりました。既存のシステムのこのパッチリリースへのアップグレードを求めるプロンプトが Cloud Manager に表示されます。</block>
   <block id="e32ea6753fc1e0dc2dafd4f1157260e0" category="paragraph">Azure に HA ペアがすでにある場合は、 P1 パッチリリースの適用を支援するために、ネットアップから連絡があります。</block>
@@ -198,7 +194,6 @@
   <block id="e74523dfd57d69116c6dc03759fe0a7b" category="list-text">アメリカ西部</block>
   <block id="a8893363a2924d8d1c0816bdb4a0ee72" category="paragraph">これらのリージョンをメンテナンスすると、 Cloud Volumes ONTAP を作成できず、フェイルオーバーが実行されない可能性があります。メンテナンスが完了したら、ただちにこれらの地域をサポートすることを計画しています。</block>
   <block id="bc65177d9fd008caca5b0105a76cd89b" category="inline-link">サポートされる Azure リージョンの一覧を参照してください</block>
-  <block id="a98fce804b2db5bb3bc16f3fd91e4894" category="paragraph"><block ref="b01a780abce559d6649a48ba9b858ca7" category="inline-link-rx"></block>。</block>
   <block id="5c3ae5e8064b906f78f689ea334bf839" category="section-title">9.5 AWS および Azure の GA （ 2019 年 2 月 4 日）</block>
   <block id="a2a629c8cd8ceb36484d412d0c24dd87" category="paragraph">Cloud Volumes ONTAP 9.5 の General Availability （ GA ）リリースが AWS と Microsoft Azure で利用できるようになりました（シングルノードシステムの場合は Azure のみ）。GA リリースでは、安定性の修正、 AWS の新機能と廃止された機能、およびシステム容量制限の変更が行われています。</block>
   <block id="a37b0234f6bd7d4e970efabe8c66add0" category="section-title">すべての Premium 構成および BYOL 構成の容量制限は 368 TB です</block>
@@ -399,4 +394,9 @@
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
   <block id="7c9d324d1d8b491ad2ad038c3ae1a08d" category="paragraph"><block ref="88f79bf25d1193134b67da843a562378" category="inline-link-rx"></block> は、一度に1つのボリュームの保存データを暗号化するためのソフトウェアベースのテクノロジです。データ、 Snapshot コピー、およびメタデータが暗号化されます。データへのアクセスには、ボリュームごとに1つの一意のXTS-AES-256キーが使用されます。</block>
   <block id="768e5fecad4c27b08f9ffd5fd34e1330" category="sidebar">Cloud Volumes ONTAP 9.5リリースノート</block>
+  <block id="16037845f27c88646572392cae4cc963" category="paragraph"><block ref="26f113c6240bf0450440356676516cf1" category="inline-link-rx"></block>です。</block>
+  <block id="045622dfb07c6145c4ccaf9f2078e56b" category="paragraph"><block ref="782e925b243dc89a59a0bc67d50ce99b" category="inline-link-rx"></block>です。</block>
+  <block id="f99c30ec26c64d7fcf92dc4cc9aba95f" category="paragraph"><block ref="71d5ab1d1cf6cb7dfc6c6d8e7906da1b" category="inline-link-rx"></block>です。</block>
+  <block id="0890aa708cef7529c2bd35cb7d2895df" category="list-text">AWSリージョンのサポートについては、を参照してください<block ref="e55b14db85f4d4837890e415926626e0" category="inline-link-rx"></block>。</block>
+  <block id="f0de068c81c765820aca0fa8fe017396" category="list-text">Azureリージョンのサポートについては、を参照してください<block ref="e55b14db85f4d4837890e415926626e0" category="inline-link-rx"></block>。</block>
 </blocks>
